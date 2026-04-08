@@ -1,0 +1,9 @@
+.important_class{
+    color:rgb(0, 163, 163);
+}
+#important_id{
+    color:deepskyblue
+}
+*{
+    background-color:rgb(144, 240, 235)
+}
