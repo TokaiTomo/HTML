@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes Hi{
+            0%{
+                background-color: red;
+            }
+            25%{
+                background-color: yellow;
+            }
+            50%{
+                background-color: lightgreen;
+            }
+            75%{
+                background-color: cyan;
+            }
+            100%{
+                background-color: violet;
+            }
+        }
+        div {
+            width: 100px;
+            height:100px;
+            background-color: rgb(0,200,255);
+            animation-name: Hi;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            font-size: 50px;
+            font-weight: bold;
+            color:black;
+            text-align: center;
+            line-height: 100px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Hi
+    </div>
+</body>
+</html>
