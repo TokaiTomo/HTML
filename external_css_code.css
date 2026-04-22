@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: aquamarine;
+}
+h1{
+    color: aqua;
+}
+a{
+    color: deepskyblue;
+}
+a:hover{
+    color: lightgreen;
+    text-decoration: underline;
+}
+ul>li{
+    font-weight: bold;
+    color: blue;
+}
+h1+p{
+    background-color: #156ae0;
+    border-radius: 100px;
+    padding: 50px;
+    font-size: 200%;
+}
+ul li:hover{
+    color: lightgreen;
+    text-decoration: underline;
+}
+ul li:nth-child(1){
+    text-decoration: underline;
+    color: blueviolet;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li::before{
+    content:"🐥";
+}
+a::after{
+    content:"🤯"
+}
+p::first-letter{
+    font-size: 250%;
+    color:azure;
+}
