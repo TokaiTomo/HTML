@@ -8,32 +8,134 @@
         div.fixed{
             position:fixed;
             right:50px;
+            padding:10px;
             border: 3px solid #73AD21;
+            background-color: darkgreen;
+            color:rgb(255, 255, 255);
+            font-size:20px;
             }
         div.sticky{
             position:sticky;
-            top:30px;
+            right:50px;
+            padding:10px;
+            border: 3px solid #73AD21;
+            background-color: darkgreen;
+            color:rgb(255, 255, 255);
+            font-size:20px;
+            }
+        div.absolute{
+            position:absolute;
+            left: 50px;
             font-size:larger;
-            color:blue;
+            padding:10px;
+            border: 3px solid #000000;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+            opacity:0.25;
+        }
+        div.absolute:hover{
+            opacity:1;
+        }
+        div.card:hover{
+            opacity:1;
+        }
+        div.relative{
+            position:relative;
+            left:25px;
+            padding:4px;
+            border:2px solid #73AD21;
+            background-color:#93ffcc
+        }
+        p.normal{
+            padding:4px;
+            border:2px solid #72a728;
+            background-color:#0f834d
+        }
+        .card {
+            position:absolute;
+            background: white;
+            border: 2px solid #52b788;
+            border-radius: 1px;
+            padding: 2px;
+            text-align: center;
+            opacity:0.25;
+        }
+        dl{
+            border:3px solid #52b788;
+            padding: 3px;
+        }
+        body{
+            position: static;
         }
     </style>
 </head>
 <body>
-    <div class="fixed">rescue the animals!</div>
-    <div class="sticky">The Pandas</div>
-    <p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-    <p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br><p>Blablabla</p><br>
-
+    <div class="sticky">Rescue Zone</div>
+    <div class="fixed">Rescue The Animals!</div>
+    <p class="normal">Giraffes - Still in checking stage</p>
+    <p class="normal">Gorillas - Still in Rescuing Stage</p>
+    <div class="relative">Koalas- are rescued</div>
+    <br><br>
+    <div class="absolute">The Pandas</div>
+    
+    <div class="card">SAFE</div>
+ 
+    <p>Other Animals</p>
+    <dl>
+        <div>Lion - Released</div>
+        <div>Elephants - Trunk treatment</div>
+        <div>Tigers - Ready to Release</div>
+        <div>Turtle - Hatching</div>
+        <div>Fox - In feeding</div>
+        <div>Panther - Ready to Release</div>
+    </dl>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
 </body>
 </html>
